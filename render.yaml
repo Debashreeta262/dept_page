@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: debashreeta262-dept-portal
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true

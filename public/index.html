@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department Portal - Home</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">&#127891; Dept<span>Portal</span></div>
+    <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+    </ul>
+    <div class="nav-right" id="navRight">
+      <a href="/login" class="btn btn-outline btn-sm">Login</a>
+      <a href="/register" class="btn btn-primary btn-sm">Register</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to the Department Portal</h1>
+    <p>Your one-stop platform for department resources, announcements, and student management. Join our community today.</p>
+    <a href="/register" class="btn btn-primary">Get Started</a>
+  </section>
+
+  <section class="stats">
+    <div class="stat-card">
+      <div class="stat-number" data-target="500">0</div>
+      <div class="stat-label">Students Enrolled</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" data-target="35">0</div>
+      <div class="stat-label">Faculty Members</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" data-target="12">0</div>
+      <div class="stat-label">Research Labs</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" data-target="6">0</div>
+      <div class="stat-label">Departments</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Our Departments</h2>
+    <p class="section-subtitle">Explore the diverse academic departments we offer</p>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">&#128187;</div>
+        <h3>Computer Science</h3>
+        <p>Cutting-edge curriculum in AI, software engineering, and cybersecurity.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#9889;</div>
+        <h3>Electronics</h3>
+        <p>VLSI design, embedded systems, and signal processing programs.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#9881;</div>
+        <h3>Mechanical</h3>
+        <p>Thermodynamics, robotics, and advanced manufacturing research.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#127959;</div>
+        <h3>Civil</h3>
+        <p>Structural engineering, environmental sustainability, and urban planning.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#9883;</div>
+        <h3>Electrical</h3>
+        <p>Power systems, renewable energy, and control engineering.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#128225;</div>
+        <h3>Information Technology</h3>
+        <p>Cloud computing, data science, and network technologies.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 DeptPortal. All rights reserved.</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

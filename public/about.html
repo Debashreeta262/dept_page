@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Department Portal</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">&#127891; Dept<span>Portal</span></a>
+    <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about" class="active">About Us</a></li>
+    </ul>
+    <div class="nav-right" id="navRight">
+      <a href="/login" class="btn btn-outline btn-sm">Login</a>
+      <a href="/register" class="btn btn-primary btn-sm">Register</a>
+    </div>
+  </nav>
+
+  <section class="about-hero">
+    <h1>About Our Department</h1>
+    <p>Empowering the next generation of engineers and innovators since 1985</p>
+  </section>
+
+  <section class="about-content">
+    <h2>Our Mission</h2>
+    <p>We are committed to providing world-class education, fostering innovation, and conducting groundbreaking research that addresses real-world challenges. Our department strives to produce well-rounded professionals equipped with both technical expertise and strong ethical values.</p>
+
+    <h2>Our Vision</h2>
+    <p>To be recognized as a center of excellence in engineering education and research, producing leaders who drive technological advancement and sustainable development across the globe.</p>
+
+    <h2>Why Choose Us?</h2>
+    <p>With state-of-the-art laboratories, experienced faculty, strong industry partnerships, and a vibrant campus life, we offer an unmatched academic experience. Our graduates are placed in top companies worldwide, and our research outputs contribute to advancing human knowledge.</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Meet Our Leadership</h2>
+    <p class="section-subtitle">The people driving our mission forward</p>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">DR</div>
+        <h3>Dr. Rakesh Sharma</h3>
+        <p>Head of Department</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">AP</div>
+        <h3>Prof. Anita Patel</h3>
+        <p>Dean, Academic Affairs</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">VK</div>
+        <h3>Dr. Vikram Kumar</h3>
+        <p>Research Coordinator</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">SM</div>
+        <h3>Ms. Sneha Mehta</h3>
+        <p>Student Welfare Officer</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 DeptPortal. All rights reserved.</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
